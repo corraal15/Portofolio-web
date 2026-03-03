@@ -7,6 +7,7 @@ Este proyecto consiste en el diseño y desarrollo de un portfolio profesional es
 * **Centro:** Liceo La Paz (A Coruña)
 * **Perfil:** Estudiante de DAM
 * **GitHub:** [corraal15](https://github.com/corraal15)
+* **Correo:** [corraal15@gmail.com](mailto:corraal15@gmail.com)
 
 ---
 
