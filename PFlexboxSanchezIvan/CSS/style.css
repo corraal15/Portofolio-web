@@ -97,6 +97,23 @@ a {
     gap: 20px;
     width: 100%;
 }
+.menu-contenedor {
+    /* Asegura que el menú ocupe todo el ancho y añade separación superior respecto al perfil */
+    width: 100%; 
+    margin-top: 20px;
+}
+
+.tarjeta-perfil {
+    /* Alinea el texto del perfil a la izquierda para diferenciarlo de las tarjetas centradas */
+    text-align: left;
+}
+
+.enlace-foto {
+    /* Centra la imagen de forma automática y precisa sin usar paddings manuales */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 .tarjeta-info,
 .tarjeta-tecnica {
@@ -239,11 +256,6 @@ footer {
     /* Utilidad para centrar texto y ponerlo en blanco */
     color: white;
     text-align: center;
-}
-
-.enlace-foto {
-    /* Ajuste manual de posición (posiblemente para centrar un icono o foto) */
-    padding: 0px 0px 0px 31%;
 }
 
 /* ============================================================
