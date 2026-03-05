@@ -8,7 +8,7 @@
     --color-fondo-boton: rgb(223, 223, 223);
     --color-texto-enlace: rgb(28, 28, 28);
     --color-fondo-sidebar: rgb(46, 46, 46);
-    --color-barra-vacia: rgb(158, 20, 20);
+    --color-barra-vacia: rgb(221, 206, 137);
     --color-barra-llena: rgb(30, 136, 30);
 }
 
@@ -97,23 +97,6 @@ a {
     gap: 20px;
     width: 100%;
 }
-.menu-contenedor {
-    /* Asegura que el menú ocupe todo el ancho y añade separación superior respecto al perfil */
-    width: 100%; 
-    margin-top: 20px;
-}
-
-.tarjeta-perfil {
-    /* Alinea el texto del perfil a la izquierda para diferenciarlo de las tarjetas centradas */
-    text-align: left;
-}
-
-.enlace-foto {
-    /* Centra la imagen de forma automática y precisa sin usar paddings manuales */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
 .tarjeta-info,
 .tarjeta-tecnica {
@@ -159,6 +142,7 @@ a {
     border: 1px black solid;
     background-color: var(--color-barra-vacia);
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .progreso-alto {
@@ -166,12 +150,14 @@ a {
     height: 100%;
     width: 80%;
     background-color: var(--color-barra-llena);
+    border-radius: 20px;
 }
 
 .progreso-muy-alto {
     /* Nivel de carga de la barra (95%) en color verde */
     height: 100%;
     width: 95%;
+    border-radius: 20px;
     background-color: var(--color-barra-llena);
 }
 
@@ -256,6 +242,11 @@ footer {
     /* Utilidad para centrar texto y ponerlo en blanco */
     color: white;
     text-align: center;
+}
+
+.enlace-foto {
+    /* Ajuste manual de posición (posiblemente para centrar un icono o foto) */
+    padding: 0px 0px 0px 31%;
 }
 
 /* ============================================================
